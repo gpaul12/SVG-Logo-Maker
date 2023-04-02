@@ -78,4 +78,10 @@ async function init() {
 
   userShapeType = answers["pixel-image"];
   console.log("User shape type: [" + userShapeType + "]");
+
+  let userShape;
+  if (userShapeType === "Square" || userShapeType === "square") {
+    userShape = new Square();
+    console.log("User selected Square shape");
+  }
 }
