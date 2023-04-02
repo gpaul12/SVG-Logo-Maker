@@ -62,5 +62,10 @@ async function init() {
   var userText = "";
   if (answers.text.length > 0 && answers.text.length < 4) {
     userText = answers.text;
+  } else {
+    console.log(
+      "Invalid user text field detected! Please enter 1-3 characters!"
+    );
+    return;
   }
 }
