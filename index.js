@@ -24,4 +24,9 @@ const questions = [
     name: "text",
     message: "Text: Enter up to (3) characters:",
   },
+  {
+    type: "input",
+    name: "text-color",
+    message: "Text Color: Enter a color keyword (or a hexadecimal number):",
+  },
 ];
