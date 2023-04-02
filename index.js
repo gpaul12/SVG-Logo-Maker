@@ -42,7 +42,7 @@ const questions = [
   },
 ];
 
-function writeFile(fileName, data) {
+function writeToFile(fileName, data) {
   console.log("Writing [" + data + "] to file [" + filename + "]");
   filesystem.writeFile(fileName, data, function (err) {
     if (err) {
