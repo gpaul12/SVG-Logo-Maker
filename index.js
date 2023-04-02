@@ -75,4 +75,7 @@ async function init() {
 
   userShapeColor = answers.shape;
   console.log("User shape color: [" + userShapeColor + "]");
+
+  userShapeType = answers["pixel-image"];
+  console.log("User shape type: [" + userShapeType + "]");
 }
