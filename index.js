@@ -17,3 +17,11 @@ class Svg {
     this.shapeElement = shape.render();
   }
 }
+
+const questions = [
+  {
+    type: "input",
+    name: "text",
+    message: "Text: Enter up to (3) characters:",
+  },
+];
