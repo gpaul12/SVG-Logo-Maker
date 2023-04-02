@@ -72,4 +72,7 @@ async function init() {
 
   userFontColor = answers["text-color"];
   console.log("User font color: [" + userFontColor + "]");
+
+  userShapeColor = answers.shape;
+  console.log("User shape color: [" + userShapeColor + "]");
 }
