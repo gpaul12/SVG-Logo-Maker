@@ -68,4 +68,5 @@ async function init() {
     );
     return;
   }
+  console.log("User text: [" + userText + "]");
 }
