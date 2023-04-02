@@ -105,3 +105,4 @@ async function init() {
   console.log("Writing shape to file...");
   writeToFile(svg_file, svgString);
 }
+init();
