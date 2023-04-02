@@ -86,5 +86,8 @@ async function init() {
   } else if (userShapeType === "Circle" || userShapeType === "circle") {
     userShape = new Circle();
     console.log("User selected Circle shape");
+  } else if (userShapeType === "Triangle" || userShapeType === "triangle") {
+    userShape = new Triangle();
+    console.log("User selected Triangle shape");
   }
 }
