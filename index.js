@@ -34,4 +34,10 @@ const questions = [
     name: "shape",
     message: "Shape Color: Enter a color keyword (or a hexadecimal number):",
   },
+  {
+    type: "list",
+    name: "pixel-image",
+    message: "Choose which Pixel Image you would like?",
+    choices: ["Circle", "Square", "Triangle"],
+  },
 ];
