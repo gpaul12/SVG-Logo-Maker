@@ -92,4 +92,5 @@ async function init() {
   } else {
     console.log("Invalid shape!");
   }
+  userShape.setColor(userShapeColor);
 }
