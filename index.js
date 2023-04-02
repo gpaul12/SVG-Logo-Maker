@@ -93,4 +93,9 @@ async function init() {
     console.log("Invalid shape!");
   }
   userShape.setColor(userShapeColor);
+
+  var svg = new Svg();
+  svg.setTextElement(userText, userFontColor);
+  svg.setShapeElement(userShape);
+  svgString = svg.render();
 }
