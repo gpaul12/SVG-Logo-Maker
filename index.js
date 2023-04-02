@@ -98,4 +98,6 @@ async function init() {
   svg.setTextElement(userText, userFontColor);
   svg.setShapeElement(userShape);
   svgString = svg.render();
+
+  console.log("Displaying shape:\n\n" + svgString);
 }
