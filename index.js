@@ -83,5 +83,8 @@ async function init() {
   if (userShapeType === "Square" || userShapeType === "square") {
     userShape = new Square();
     console.log("User selected Square shape");
+  } else if (userShapeType === "Circle" || userShapeType === "circle") {
+    userShape = new Circle();
+    console.log("User selected Circle shape");
   }
 }
