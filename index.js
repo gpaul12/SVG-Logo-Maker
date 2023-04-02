@@ -29,4 +29,9 @@ const questions = [
     name: "text-color",
     message: "Text Color: Enter a color keyword (or a hexadecimal number):",
   },
+  {
+    type: "input",
+    name: "shape",
+    message: "Shape Color: Enter a color keyword (or a hexadecimal number):",
+  },
 ];
