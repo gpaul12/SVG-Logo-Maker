@@ -51,3 +51,9 @@ function writeToFile(fileName, data) {
     console.log("Congrats! You have generated a logo.svg!");
   });
 }
+
+async function init() {
+  console.log("Starting init");
+  var svgString = "";
+  var svg_file = "logo.svg";
+}
