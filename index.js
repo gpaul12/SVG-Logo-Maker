@@ -1,4 +1,4 @@
-const filesystem = require("./node_modules/graceful-fs/graceful-fs");
+const fs = require("fs");
 const inquirer = require("inquirer");
 const { Circle, Square, Triangle } = require("./lib/shapes");
 
@@ -44,7 +44,7 @@ const questions = [
 
 function writeToFile(fileName, data) {
   console.log("Writing [" + data + "] to file [" + filename + "]");
-  filesystem.writeFile(fileName, data, function (err) {
+  fs.writeFile(fileName, data, function (err) {
     if (err) {
       return console.log(err);
     }
