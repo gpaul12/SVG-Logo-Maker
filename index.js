@@ -100,4 +100,8 @@ async function init() {
   svgString = svg.render();
 
   console.log("Displaying shape:\n\n" + svgString);
+
+  console.log("Shape generation complete!");
+  console.log("Writing shape to file...");
+  writeToFile(svg_file, svgString);
 }
