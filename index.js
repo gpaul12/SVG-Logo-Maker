@@ -56,4 +56,6 @@ async function init() {
   console.log("Starting init");
   var svgString = "";
   var svg_file = "logo.svg";
+
+  const answers = await inquirer.createPromptModule(questions);
 }
