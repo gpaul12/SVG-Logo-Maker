@@ -89,5 +89,7 @@ async function init() {
   } else if (userShapeType === "Triangle" || userShapeType === "triangle") {
     userShape = new Triangle();
     console.log("User selected Triangle shape");
+  } else {
+    console.log("Invalid shape!");
   }
 }
