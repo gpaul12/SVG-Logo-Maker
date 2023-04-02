@@ -69,4 +69,7 @@ async function init() {
     return;
   }
   console.log("User text: [" + userText + "]");
+
+  userFontColor = answers["text-color"];
+  console.log("User font color: [" + userFontColor + "]");
 }
