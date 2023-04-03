@@ -22,17 +22,17 @@ const questions = [
   {
     type: "input",
     name: "text",
-    message: "Text: Enter up to (3) characters:",
+    message: "TEXT: Enter up to (3) Characters:",
   },
   {
     type: "input",
     name: "text-color",
-    message: "Text Color: Enter a color keyword (or a hexadecimal number):",
+    message: "TEXT COLOR: Enter a color keyword (OR a hexadecimal number):",
   },
   {
     type: "input",
     name: "shape",
-    message: "Shape Color: Enter a color keyword (or a hexadecimal number):",
+    message: "SHAPE COLOR: Enter a color keyword (OR a hexadecimal number):",
   },
   {
     type: "list",
@@ -48,7 +48,7 @@ function writeToFile(fileName, data) {
     if (err) {
       return console.log(err);
     }
-    console.log("Congrats! You have generated a logo.svg!");
+    console.log("Congratulations, you have Generated a logo.svg!");
   });
 }
 
@@ -58,25 +58,23 @@ async function init() {
   var svg_file = "logo.svg";
 
   const answers = await inquirer.prompt(questions);
+
   var userText = "";
   if (answers.text.length > 0 && answers.text.length < 4) {
     userText = answers.text;
   } else {
     console.log(
-      "Invalid user text field detected! Please enter 1-3 characters!"
+      "Invalid user text field detected! Please enter 1-3 Characters, no more and no less"
     );
     return;
   }
   console.log("User text: [" + userText + "]");
-
   userFontColor = answers["text-color"];
   console.log("User font color: [" + userFontColor + "]");
-
   userShapeColor = answers.shape;
   console.log("User shape color: [" + userShapeColor + "]");
-
   userShapeType = answers["pixel-image"];
-  console.log("User shape type: [" + userShapeType + "]");
+  console.log("User entered shape = [" + userShapeType + "]");
 
   let userShape;
   if (userShapeType === "Square" || userShapeType === "square") {
