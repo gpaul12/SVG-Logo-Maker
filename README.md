@@ -11,9 +11,6 @@ The application enables users to enter inputs into a inquirer prompt in order to
 - [Usage Information](#Usage-Information)
 - [Installation Process](#Installation-Process)
 - [Built With](#Built-With)
-- [What I Learned](#What-I-Learned)
-- [Continued Development](#Continued-Development)
-- [License](#License)
 - [Author](#Author)
 - [Acknowledgments](#Acknowledgments)
 
@@ -38,7 +35,7 @@ Build a Node.js command-line application that takes in user inputs to generates 
 
 ## Walkthrough Video:
 
-[Click Here to Watch]()
+[Click Here to Watch](https://drive.google.com/file/d/1MwHJbNLsEW_fwbESlOtgoKcArnzJG2ed/view)
 
 ## Screenshots:
 
